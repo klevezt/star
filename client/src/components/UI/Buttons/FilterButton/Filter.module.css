@@ -1,0 +1,14 @@
+.button{
+    margin-top: 20px;
+    border-radius: 3px;
+    color: coral;
+    border: 2px solid coral;
+    padding: 5px 20px;
+    background-color: white;
+    font-weight: bold;
+}
+
+.button:hover{
+    background-color: coral;
+    color: white;
+}

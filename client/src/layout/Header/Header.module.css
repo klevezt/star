@@ -1,0 +1,23 @@
+.header{
+    padding: 20px;
+    background: rgb(247, 247, 247);
+}
+
+.header--inside{
+    display: flex;
+    justify-content: space-between;
+}
+
+.link{
+    text-decoration: none;
+    color: white;
+    background-color:coral;
+    padding: 10px 20px;
+    border-radius: 3px;
+    border: none;
+}
+
+.link:hover{
+    color: white;
+    background-color: rgba(255, 127, 80, 0.80);
+}

@@ -1,0 +1,39 @@
+@media(min-width:1440px){
+
+  .app-wrapper>div{
+    max-width: 1380px;
+    margin: auto;
+  }
+}
+
+@media(min-width:1204px) {
+
+  .app-wrapper>div {
+    max-width: 1200px;
+    margin: auto;
+  }
+}
+
+@media(min-width:1024px) {
+
+  .app-wrapper>div {
+    max-width: 1020px;
+    margin: auto;
+  }
+}
+
+@media(min-width:768px) {
+
+  .app-wrapper>div {
+    max-width: 700px;
+    margin: auto;
+  }
+}
+
+/* @media(min-width:575px) { */
+
+  .app-wrapper>div {
+    max-width: 90%;
+    margin: auto;
+  }
+/* } */
