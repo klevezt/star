@@ -1,4 +1,4 @@
-import React, { useRef, useState } from "react";
+import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import styles from "./Register.module.css";
 import bcrypt from "bcryptjs";
@@ -12,8 +12,6 @@ const Register = () => {
 
   const [usernameValid, setUsernameValid] = useState(true);
   const [passwordValid, setPasswordValid] = useState(true);
-
-  //   const confirmPasswordRef = useRef("");
 
   const usernameInputHandler = (e) => {
     setUsernameValid(true);

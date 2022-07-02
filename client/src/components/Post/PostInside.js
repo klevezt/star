@@ -23,7 +23,7 @@ const PostInside = () => {
     exec();
 
     return () => controller?.abort();
-  }, []);
+  }, [params.id]);
 
   return (
     <>

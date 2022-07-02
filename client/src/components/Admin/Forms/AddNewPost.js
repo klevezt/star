@@ -21,7 +21,6 @@ const AddNewPost = () => {
   const textRef = useRef("");
   const categoryRef = useRef("");
   const imageRef = useRef("");
-  const tagsRef = useRef("");
   const newTagRef = useRef("");
 
   useEffect(() => {
